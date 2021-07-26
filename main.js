@@ -94,6 +94,8 @@ document.getElementById("scoreboard").classList.remove("hidden")
     savePlayers()
   }
 
+  currentPopCount = 0
+
   stopClock()
   draw()
   drawScoreboard()
